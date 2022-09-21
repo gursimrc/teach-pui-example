@@ -57,7 +57,11 @@
                     <!--dropdown 1-->
                     <label for="glazing">Glazing:</label>
                     <br>
-                    <select name="glazing" class="dropdown" id="select-glazing" onchange="glazingChange(this)">
+                    <select name="glazing" class="dropdown">
+                        <option value="keep-original">Keep original</option>
+                        <option value="sugar-milk">Sugar milk</option>
+                        <option value="vanilla-milk">Vanilla milk</option>
+                        <option value="double-chocolate">Double chocolate</option>
                     </select>
 
                     <br><br>
@@ -65,7 +69,11 @@
                     <!--dropdown 2-->
                     <label for="pack-size">Pack size:</label>
                     <br>
-                    <select name="pack-size" id="select-pack-size" onchange="packSizeChange(this)">
+                    <select name="pack-size" id="select-pack-size">
+                        <option value="1">1</option>
+                        <option value="3">3</option>
+                        <option value="6">6</option>
+                        <option value="12">12</option>
                     </select>
                 </div>
 
