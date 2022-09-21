@@ -31,7 +31,7 @@ for (i in glazingOptions) {
     selectGlazing.appendChild(opt);
 }
 
-//populating the options of the glazing selection dropdown
+//populating the options of the packSize selection dropdown
 const selectPackSize = document.querySelector("#select-pack-size");
 for (i in packSizeOptions) {
     var opt = document.createElement('option');
