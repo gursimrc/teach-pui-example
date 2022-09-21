@@ -5,6 +5,7 @@
     <head>
         <title>Detail</title>
         <link rel="stylesheet" href="./css/style.css">
+        <script defer src="js/price.js"></script>
     </head>
 
 
@@ -56,11 +57,7 @@
                     <!--dropdown 1-->
                     <label for="glazing">Glazing:</label>
                     <br>
-                    <select name="glazing" class="dropdown">
-                        <option value="keep-original">Keep original</option>
-                        <option value="sugar-milk">Sugar milk</option>
-                        <option value="vanilla-milk">Vanilla milk</option>
-                        <option value="double-chocolate">Double chocolate</option>
+                    <select name="glazing" class="dropdown" id="select-glazing" onchange="glazingChange(this)">
                     </select>
 
                     <br><br>
@@ -68,18 +65,14 @@
                     <!--dropdown 2-->
                     <label for="pack-size">Pack size:</label>
                     <br>
-                    <select name="pack-size" id="pack-size">
-                        <option value="1">1</option>
-                        <option value="3">3</option>
-                        <option value="6">6</option>
-                        <option value="12">12</option>
+                    <select name="pack-size" id="select-pack-size" onchange="packSizeChange(this)">
                     </select>
                 </div>
 
                 <!--total price-->
                 <div class="add-to-cart-row">
                     <div class="add-to-cart-box">
-                        <span>$2.49</span>
+                        <span class="price">$2.49</span>
                         <a href="./cart.html" class="button-link" id="add-to-cart";>Add to Cart</a>
                     </div>
                 </div>
