@@ -25,7 +25,7 @@ const packSizeOptions =
 //populating the options of the glazing selection dropdown
 const selectGlazing = document.querySelector("#select-glazing");
 for (i in glazingOptions) {
-    var opt = document.createElement('option');
+    let opt = document.createElement('option');
     opt.value = i;
     opt.innerText = glazingOptions[i][0];
     selectGlazing.appendChild(opt);
@@ -34,7 +34,7 @@ for (i in glazingOptions) {
 //populating the options of the packSize selection dropdown
 const selectPackSize = document.querySelector("#select-pack-size");
 for (i in packSizeOptions) {
-    var opt = document.createElement('option');
+    let opt = document.createElement('option');
     opt.value = i;
     opt.innerText = String(i);
     selectPackSize.appendChild(opt);
