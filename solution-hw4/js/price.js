@@ -55,3 +55,4 @@ function packSizeChange(element) {
   priceSpan.textContent = "$" + String(totalPrice);
 }
 
+
