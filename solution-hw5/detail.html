@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <head>
+        <title>Detail</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <script defer src="js/rollsData.js"></script>
+        <script defer src="js/detail.js"></script>
+        <script defer src="js/price.js"></script>
+        
+ 
+    </head>
+
+
+    <body>
+        
+        
+
+        <!--flexbox for page head-->
+        <div class="page-head">
+
+            <!--logo-->
+            <div class="logo-container">
+            <a href="./index.html">
+                <img class="logo" src="./logo/logo-01.svg">
+            </a>
+            </div>
+    
+            <!--flexbox inside flexbox-->
+            <div class="nav-head-container">
+    
+                <!--two nav buttons-->
+                <div class="navigation">
+                    <a href="./index.html" class="nav-button" id="selected-nav-button" >PRODUCTS</a>
+                    <a href="./cart.html" class="nav-button">CART</a> 
+                </div>
+        
+                <!--horizontal divider-->
+                <hr class="divider" id="header-divider">
+        
+                <h1>An original cinnamon roll</h1>
+    
+            </div>
+    
+        </div>
+
+
+        <div class="product-detail-container">
+
+            <img class="product-images" id="detail-image" src="./products/original-cinnamon-roll.jpg" alt="An original cinnamon roll">
+
+            <!--dropdowns-->
+
+            <div class="other-details">
+
+                <p id="product-desc">Customize our delicious, hand-made cinnamon roll to your liking!</p>
+
+                <div class="detail-dropdowns">
+
+                    <!--dropdown 1-->
+                    <label for="glazing">Glazing:</label>
+                    <br>
+                    <select name="glazing" class="dropdown" id="select-glazing" onchange="glazingChange(this)">
+                    </select>
+
+                    <br><br>
+
+                    <!--dropdown 2-->
+                    <label for="pack-size">Pack size:</label>
+                    <br>
+                    <select name="pack-size" id="select-pack-size" onchange="packSizeChange(this)">
+                    </select>
+                </div>
+
+                <!--total price-->
+                <div class="add-to-cart-row">
+                    <div class="add-to-cart-box">
+                        <span class="price">$2.49</span>
+                        <a href="#" class="button-link" id="add-to-cart";>Add to Cart</a>
+                        <!--href used to be ./cart.html to go to cart-->
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <br>
+
+    </body>
+</html>
