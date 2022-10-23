@@ -1,0 +1,31 @@
+.color-container {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 500px;
+    width: 50%;
+}
+
+
+#blue {
+    background-color: blue;
+    width: 200px;
+    height: 100px;
+
+}
+
+#red {
+    background-color: red;
+    width: 200px;
+    height: 100px;
+}
+
+#green {
+    background-color: green;
+    width: 200px;
+    height: 100px;
+}
+
+

@@ -1,0 +1,207 @@
+.logo {
+    width: 200px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.divider {
+    margin-left: 10px;
+    margin-right: 10px;
+
+    /* referenced https://www.w3schools.com/howto/howto_css_dividers.asp */
+    border-top: 3px solid #000000; 
+
+}
+
+.bottom-cart-divider {
+    margin-left: 200px;
+    margin-right: 200px;
+    border-top: 3px solid #000000; 
+
+}
+
+
+nav {
+    margin-top: 10px;
+    margin-bottom: 70px;
+
+}
+
+.nav-buttons {
+    background-color: #ffffff;
+    border: none;
+    text-align: center;
+    font-family: "Arial";
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.cart-remove-button {
+    width:300px;
+    text-align: center;
+    font-family: "Arial";
+    font-size: 12px;
+    color: #000000;
+    font-weight: bold; 
+}
+
+.text-link {
+    display: block;
+    width: 210px;
+    margin: 0 auto;
+}
+
+.selected-nav-link, .text-link:hover{
+    background-color: #FFFD38;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+}
+
+.nav-link:link, .text-link:link {
+    color: #000000;
+    text-decoration: none;
+    cursor: auto;
+}
+
+.text-link:hover {
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+}
+
+.text-link:visited, .nav-link:visited, .remove, .remove:hover {
+    color: #000000;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: "Arial";
+    font-size: 20px; 
+    font-weight: normal;
+    margin-bottom: 24px;
+}
+
+p, span, label {
+    font-family: "Arial";
+    font-size: 16px; 
+}
+
+.product-box {
+    padding-top: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 210px;
+  
+}
+
+.product-row {
+    margin-bottom: 32px    
+}
+
+.detail-display {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 600px;  
+}
+
+.detail-display-cart {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: center; 
+}
+
+.product-images {
+    /* referenced https://www.w3schools.com/howto/howto_css_border_image.asp */
+    border:2px solid #000000;
+    margin-left: 3px;
+}
+
+.product-title, .product-price {
+    text-align: left;
+    margin: 2px;
+}
+
+.product-title{
+    text-decoration: underline;
+}
+
+
+#product-desc {
+    text-align: left;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.detail-dropdowns {
+    width: 200px;
+    margin: 0 auto; 
+}
+
+select {
+    margin-top: 6px;
+    font-family: "Arial";
+    font-size: 16px; 
+    width: 200px;
+    height: 32px;
+    border:2px solid #000000;
+    padding-left: 6px;
+}
+
+.add-to-cart-row {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.cart-prices{
+    font-size: 18px;
+}
+
+.button-link {
+    border:2px solid #000000;
+    font-family: "Arial";
+    font-size: 16px; 
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: #FFFD38;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#add-to-cart {
+    margin-left: 16px;
+}
+
+.button-link:link {
+    color: #000000;
+    text-decoration: none;
+    cursor: auto;
+}
+
+.button-link:hover {
+    cursor: pointer;
+}
+
+.button-link:visited {
+    color: #000000;
+}
+
+.checkout {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+#total{
+    padding-bottom: 10px;
+}
