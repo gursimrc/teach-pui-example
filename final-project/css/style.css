@@ -1,0 +1,112 @@
+body {
+    background-color: #000000;
+    height: 4800px;
+}
+
+p {
+    color: #ffffff;
+}
+
+.main-header {
+    width: 100%; 
+    height: 40%;
+    text-align: center;
+    display:block;
+    position: fixed; 
+    z-index: 3;
+}
+
+#sun-container {
+  width: 100%;
+  text-align: center;
+  display:block;
+  position: fixed;
+  z-index: 3;
+  bottom: 15%; 
+}
+
+#sun-image {
+  width: 30%;
+}
+
+/*adjusting size of sun for mobile*/
+@media only screen and (max-width: 1000px) {
+  #sun-image {
+    width: 70%;
+  }
+}
+
+#arrow-container {
+  width: 100%;
+  text-align: center;
+  display: block;
+  position: fixed;
+  z-index: 3;
+  bottom: 5%;
+}
+
+.heading {
+    font-family: "Josefin Slab";
+    font-size: 96px; font-weight: bold;
+    
+}
+
+.text-content{
+    font-family: "Poppins";
+    font-size: 32px; 
+    font-weight: 200;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*adjusting font size for mobile*/
+@media only screen and (max-width: 1000px) {
+  .text-content{
+    font-size: 48px;
+  } 
+}
+
+
+
+/*starry night background*/
+/* learned to make this from https://github.com/Carla-Codes/starry-night-css-animation/blob/master/style.css */
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+
+.stars, .twinkling, .clouds {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:4800px; 
+  display:block;
+}
+
+.stars {
+  background:#000 url(../images/stars.png) repeat top center;
+  z-index:0;
+}
+
+.twinkling{
+  background:transparent url(../images/twinkling.png) repeat top center;
+  z-index:1;
+  animation:move-twink-back 200s linear infinite;
+}
+
+.clouds{background:transparent url(../images/clouds.png) repeat top center;
+  z-index:2;
+  opacity: .4;
+  animation:move-clouds-back 200s linear infinite;
+}
+
