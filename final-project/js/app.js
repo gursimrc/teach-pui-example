@@ -34,7 +34,7 @@ function runOnScroll() {
         text.style.opacity = 1;
         text.style.transition = 'opacity 4s';   
         text.innerHTML = "In short, the solar cycle is a cycle that the Sun’s magnetic field goes through approximately every 11 years.";
-        sun.src = "/../images/sun-lines.png";
+        sun.src = "./images/sun-lines.png";
         sun.alt = "Yellow and orange circle representing the sun with white lines around it representing its magnetic field";
         page1Entered = true;
       }, 2000);
