@@ -34,7 +34,7 @@ function runOnScroll() {
         text.style.opacity = 1;
         text.style.transition = 'opacity 4s';   
         text.innerHTML = "In short, the solar cycle is a cycle that the Sun’s magnetic field goes through approximately every 11 years.";
-        sun.src = "images/sun-lines.png";
+        sun.src = "./images/sun-lines.png";
         sun.alt = "Yellow and orange circle representing the sun with white lines around it representing its magnetic field";
         page1Entered = true;
       }, 2000);
@@ -44,7 +44,7 @@ function runOnScroll() {
       text.classList.remove("heading"); 
       text.classList.add("text-content");
       text.innerHTML = "In short, the solar cycle is a cycle that the Sun’s magnetic field goes through approximately every 11 years.";
-      sun.src = "../images/sun-lines.png";
+      sun.src = "./images/sun-lines.png";
       sun.alt = "Yellow and orange circle representing the sun with white lines around it representing its magnetic field";
     }
   }
@@ -64,7 +64,7 @@ function runOnScroll() {
         text.innerHTML = "Did you know that the Sun has north and south poles, just like Earth?";
         sun.alt = "Yellow and orange circle representing the sun with white lines around it representing its magnetic field\
         and small arrows pointing from down to up. A label of N on the top and S at the bottom";
-        sun.src = "../../images/sun-poles.png";
+        sun.src = "./images/sun-poles.png";
         page2Entered = true;
       }, 2000);
     }
@@ -74,7 +74,7 @@ function runOnScroll() {
       text.innerHTML = "Did you know that the Sun has north and south poles, just like Earth?";
       sun.alt = "Yellow and orange circle representing the sun with white lines around it representing its magnetic field\
       and small arrows pointing from down to up. A label of N on the top and S at the bottom";
-      sun.src = "../images/sun-poles.png";
+      sun.src = "./images/sun-poles.png";
     }
   }
 
@@ -92,7 +92,7 @@ function runOnScroll() {
         text.innerHTML = "Over the span of ~11 years, these north and south poles switch places!";
         sun.alt = "Yellow and orange circle representing the sun with white lines around it representing its magnetic field\
         and small arrows pointing from up to down. A label of S on the top and N at the bottom";
-        sun.src = "sun-poles-flipped.png";
+        sun.src = "./images/sun-poles-flipped.png";
         page3Entered = true;
       }, 2000);
     }
@@ -100,7 +100,7 @@ function runOnScroll() {
       text.classList.remove("heading"); 
       text.classList.add("text-content");
       text.innerHTML = "Over the span of ~11 years, these north and south poles switch places!";
-      sun.src = "Sun-poles-flipped.png";
+      sun.src = "./images/sun-poles-flipped.png";
       sun.alt = "Yellow and orange circle representing the sun with white lines around it representing its magnetic field\
       and small arrows pointing from up to down. A label of S on the top and N at the bottom";
     }
@@ -119,7 +119,7 @@ function runOnScroll() {
         text.style.opacity = 1;
         text.style.transition = 'opacity 4s';   
         text.innerHTML = "At the beginning of the solar cycle, the Sun is at it’s quietest...";
-        sun.src = './images/sun.png';
+        sun.src = "./images/sun.png";
         sun.alt = "Yellow and orange circle representing the sun";
         page4Entered = true;
       }, 2000);
@@ -128,7 +128,7 @@ function runOnScroll() {
       text.classList.remove("heading"); 
       text.classList.add("text-content");
       text.innerHTML = "At the beginning of the solar cycle, the Sun is at it’s quietest...";
-      sun.src = "../images/sun.png";
+      sun.src = "./images/sun.png";
       sun.alt = "Yellow and orange circle representing the sun";
     }
   }
@@ -155,7 +155,7 @@ function runOnScroll() {
       text.classList.remove("heading"); 
       text.classList.add("text-content");
       text.innerHTML = "...this is called the solar minimum.";
-      sun.src = "../images/sun.png";
+      sun.src = "./images/sun.png";
       sun.alt = "Yellow and orange circle representing the sun";
     }
   }
@@ -172,7 +172,7 @@ function runOnScroll() {
         text.style.opacity = 1;
         text.style.transition = 'opacity 4s';   
         text.innerHTML = "As the cycle progresses and the magnetic field shifts, the Sun starts to become active and stormy";
-        sun.src = "../images/stormy-sun.png";
+        sun.src = "./images/stormy-sun.png";
         sun.alt = "Orange circle with highlights representing the a stormy, burning sun";
         page6Entered = true;
       }, 2000);
@@ -181,7 +181,7 @@ function runOnScroll() {
       text.classList.remove("heading"); 
       text.classList.add("text-content");
       text.innerHTML = "As the cycle progresses and the magnetic field shifts, the Sun starts to become active and stormy";
-      sun.src = "../images/stormy-sun.png";
+      sun.src = "./images/stormy-sun.png";
       sun.alt = "Orange circle with highlights representing the a stormy, burning sun";
     }
   }
@@ -199,7 +199,7 @@ function runOnScroll() {
         text.style.opacity = 1;
         text.style.transition = 'opacity 4s';   
         text.innerHTML = "The middle of the solar cycle is the called the solar maximum.";
-        sun.src = "../images/stormy-sun.png";
+        sun.src = "./images/stormy-sun.png";
         sun.alt = "Orange circle with highlights representing the a stormy, burning sun";
         page7Entered = true;
       }, 2000);
@@ -208,7 +208,7 @@ function runOnScroll() {
       text.classList.remove("heading"); 
       text.classList.add("text-content");
       text.innerHTML = "The middle of the solar cycle is the called the solar maximum.";
-      sun.src = "../images/stormy-sun.png";
+      sun.src = "./images/stormy-sun.png";
       sun.alt = "Orange circle with highlights representing the a stormy, burning sun";
     }
   }
@@ -225,7 +225,7 @@ function runOnScroll() {
         text.style.opacity = 1;
         text.style.transition = 'opacity 4s';   
         text.innerHTML = "This is when the Sun's stormy behavior is at its peak. The Sun blazes with bright flares and eruptions.";
-        sun.src = "../images/shooting-sun.png";
+        sun.src = "./images/shooting-sun.png";
         sun.alt = "Orange circle with highlights representing the a stormy, burning sun, with yellow lines shooting out from sun.";
         page8Entered = true;
       }, 2000);
@@ -234,7 +234,7 @@ function runOnScroll() {
       text.classList.remove("heading"); 
       text.classList.add("text-content");
       text.innerHTML = "This is when the Sun's stormy behavior is at its peak. The Sun blazes with bright flares and eruptions.";
-      sun.src = "../images/shooting-sun.png";
+      sun.src = "./images/shooting-sun.png";
       sun.alt = "Orange circle with highlights representing the a stormy, burning sun, with yellow lines shooting out from sun.";
     }
   }
@@ -251,7 +251,7 @@ function runOnScroll() {
         text.style.opacity = 1;
         text.style.transition = 'opacity 4s';   
         text.innerHTML = "These eruptions send powerful bursts of energy and material into space.";
-        sun.src = "../images/shooting-sun.png";
+        sun.src = "./images/shooting-sun.png";
         sun.alt = "Orange circle with highlights representing the a stormy, burning sun, with yellow lines shooting out from sun.";
         page9Entered = true;
       }, 2000);
@@ -260,7 +260,7 @@ function runOnScroll() {
       text.classList.remove("heading"); 
       text.classList.add("text-content");
       text.innerHTML = "These eruptions send powerful bursts of energy and material into space.";
-      sun.src = "../images/shooting-sun.png";
+      sun.src = "./images/shooting-sun.png";
       sun.alt = "Orange circle with highlights representing the a stormy, burning sun, with yellow lines shooting out from sun.";
     }
   }
@@ -277,7 +277,7 @@ function runOnScroll() {
         text.style.opacity = 1;
         text.style.transition = 'opacity 4s';   
         text.innerHTML = "They can cause lights in our sky on Earth, called aurora (northern lights)";
-        sun.src = "../images/shooting-sun.png";
+        sun.src = "./images/shooting-sun.png";
         sun.alt = "Orange circle with highlights representing the a stormy, burning sun, with yellow lines shooting out from sun.";
         page10Entered = true;
       }, 2000);
@@ -286,7 +286,7 @@ function runOnScroll() {
       text.classList.remove("heading"); 
       text.classList.add("text-content");
       text.innerHTML = "They can cause lights in our sky on Earth, called aurora (northern lights)";
-      sun.src = "../images/shooting-sun.png";
+      sun.src = "./images/shooting-sun.png";
       sun.alt = "Orange circle with highlights representing the a stormy, burning sun, with yellow lines shooting out from sun.";
     }
   }
@@ -303,7 +303,7 @@ function runOnScroll() {
         text.style.opacity = 1;
         text.style.transition = 'opacity 4s';   
         text.innerHTML = "On the downside, they also  impact our radio communications and, in extreme cases, electricity grids.";
-        sun.src = "../images/shooting-sun.png";
+        sun.src = "./images/shooting-sun.png";
         sun.alt = "Orange circle with highlights representing the a stormy, burning sun, with yellow lines shooting out from sun.";
         page11Entered = true;
       }, 2000);
@@ -312,7 +312,7 @@ function runOnScroll() {
       text.classList.remove("heading"); 
       text.classList.add("text-content");
       text.innerHTML = "On the downside, they also  impact our radio communications and, in extreme cases, electricity grids.";
-      sun.src = "../images/shooting-sun.png";
+      sun.src = "./images/shooting-sun.png";
       sun.alt = "Orange circle with highlights representing the a stormy, burning sun, with yellow lines shooting out from sun.";
     }
   }
@@ -329,7 +329,7 @@ function runOnScroll() {
         text.style.opacity = 1;
         text.style.transition = 'opacity 4s';   
         text.innerHTML = "As the cycle ends, the activity fades back towards the solar minimum.";
-        sun.src = "../images/sun.png";
+        sun.src = "./images/sun.png";
         sun.alt = "Yellow and orange circle representing the sun";
         page12Entered = true;
       }, 2000);
@@ -338,7 +338,7 @@ function runOnScroll() {
       text.classList.remove("heading"); 
       text.classList.add("text-content");
       text.innerHTML = "As the cycle ends, the activity fades back towards the solar minimum.";
-      sun.src = "../images/sun.png";
+      sun.src = "./images/sun.png";
       sun.alt = "Yellow and orange circle representing the sun";
     }
   }
@@ -355,7 +355,7 @@ function runOnScroll() {
         text.style.opacity = 1;
         text.style.transition = 'opacity 4s';   
         text.innerHTML = "Now, the poles have flipped and a new cycle will begin!";
-        sun.src = "../images/sun-poles-flipped.png";
+        sun.src = "./images/sun-poles-flipped.png";
         sun.alt = "Yellow and orange circle representing the sun with white lines around it representing its magnetic field\
         and small arrows pointing from up to down. A label of S on the top and N at the bottom";
         page13Entered = true;
@@ -365,7 +365,7 @@ function runOnScroll() {
       text.classList.remove("heading"); 
       text.classList.add("text-content");
       text.innerHTML = "Now, the poles have flipped and a new cycle will begin!";
-      sun.src = "../images/sun-poles-flipped.png";
+      sun.src = "./images/sun-poles-flipped.png";
       sun.alt = "Yellow and orange circle representing the sun with white lines around it representing its magnetic field\
       and small arrows pointing from up to down. A label of S on the top and N at the bottom";
     }
@@ -383,7 +383,7 @@ function runOnScroll() {
         text.style.opacity = 1;
         text.style.transition = 'opacity 4s';   
         text.innerHTML = "Scientists are still trying to fully understand the Sun’s magnetic field to make better predicitons.";
-        sun.src = "../images/sun.png";
+        sun.src = "./images/sun.png";
         page14Entered = true;
       }, 2000);
     }
@@ -391,7 +391,7 @@ function runOnScroll() {
       text.classList.remove("heading"); 
       text.classList.add("text-content");
       text.innerHTML = "Scientists are still trying to fully understand the Sun’s magnetic field to make better predicitons.";
-      sun.src = "../images/sun.png";
+      sun.src = "./images/sun.png";
     }
   }
 
@@ -410,7 +410,7 @@ function runOnScroll() {
         text.style.transition = 'opacity 4s';   
         text.innerHTML = "According to their clock, the Sun’s next quiet period will begin \
         around the first half of 2027.";
-        sun.src = "../images/sun.png";
+        sun.src = "./images/sun.png";
         sun.alt = "Yellow and orange circle representing the sun";
         page15Entered = true;
 
@@ -421,7 +421,7 @@ function runOnScroll() {
       text.classList.add("text-content");
       text.innerHTML = "According to their clock, the Sun’s next quiet period will begin \
       around the first half of 2027.";
-      sun.src = "../images/sun.png";
+      sun.src = "./images/sun.png";
       sun.alt = "Yellow and orange circle representing the sun";
     }
   }
