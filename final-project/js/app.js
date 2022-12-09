@@ -14,7 +14,7 @@ function runOnScroll() {
     text.innerHTML = "what's a solar cycle?";
     text.classList.remove("text-content");
     text.classList.add("heading");
-    sun.src = "../images/sun.png";
+    sun.src = "final-project/images/sun.png";
     sun.alt = "Circular, orange and yellow digital drawing representing the sun";
   }
     
