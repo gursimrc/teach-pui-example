@@ -14,6 +14,6 @@ HW5: https://gursimrc.github.io/teach-pui-example/solution-hw5/
 
 HW6: https://gursimrc.github.io/teach-pui-example/solution-hw6/
 
-HW6: https://gursimrc.github.io/teach-pui-example/final-project/
+FINAL PROJECT: https://gursimrc.github.io/teach-pui-example/final-project/
 
 Repository link: https://github.com/gursimrc/teach-pui-example/
