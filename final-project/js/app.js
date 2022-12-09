@@ -34,7 +34,7 @@ function runOnScroll() {
         text.style.opacity = 1;
         text.style.transition = 'opacity 4s';   
         text.innerHTML = "In short, the solar cycle is a cycle that the Sun’s magnetic field goes through approximately every 11 years.";
-        sun.src = "../images/sun-lines.png";
+        sun.src = "images/sun-lines.png";
         sun.alt = "Yellow and orange circle representing the sun with white lines around it representing its magnetic field";
         page1Entered = true;
       }, 2000);
@@ -64,7 +64,7 @@ function runOnScroll() {
         text.innerHTML = "Did you know that the Sun has north and south poles, just like Earth?";
         sun.alt = "Yellow and orange circle representing the sun with white lines around it representing its magnetic field\
         and small arrows pointing from down to up. A label of N on the top and S at the bottom";
-        sun.src = "../images/sun-poles.png";
+        sun.src = "../../images/sun-poles.png";
         page2Entered = true;
       }, 2000);
     }
@@ -92,7 +92,7 @@ function runOnScroll() {
         text.innerHTML = "Over the span of ~11 years, these north and south poles switch places!";
         sun.alt = "Yellow and orange circle representing the sun with white lines around it representing its magnetic field\
         and small arrows pointing from up to down. A label of S on the top and N at the bottom";
-        sun.src = "../images/sun-poles-flipped.png";
+        sun.src = "sun-poles-flipped.png";
         page3Entered = true;
       }, 2000);
     }
@@ -100,7 +100,7 @@ function runOnScroll() {
       text.classList.remove("heading"); 
       text.classList.add("text-content");
       text.innerHTML = "Over the span of ~11 years, these north and south poles switch places!";
-      sun.src = "../images/sun-poles-flipped.png";
+      sun.src = "Sun-poles-flipped.png";
       sun.alt = "Yellow and orange circle representing the sun with white lines around it representing its magnetic field\
       and small arrows pointing from up to down. A label of S on the top and N at the bottom";
     }
@@ -119,7 +119,7 @@ function runOnScroll() {
         text.style.opacity = 1;
         text.style.transition = 'opacity 4s';   
         text.innerHTML = "At the beginning of the solar cycle, the Sun is at it’s quietest...";
-        sun.src = "../images/sun.png";
+        sun.src = './images/sun.png';
         sun.alt = "Yellow and orange circle representing the sun";
         page4Entered = true;
       }, 2000);
@@ -146,7 +146,7 @@ function runOnScroll() {
         text.style.opacity = 1;
         text.style.transition = 'opacity 4s';   
         text.innerHTML = "...this is called the solar minimum.";
-        sun.src = "../images/sun.png";
+        sun.src = "./images/sun.png";
         sun.alt = "Yellow and orange circle representing the sun";
         page5Entered = true;
       }, 2000);
