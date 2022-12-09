@@ -1,3 +1,1 @@
-Deployed website: https://gursimrc.github.io/teach-pui-example/final-project/
-
-Repository link:  https://github.com/gursimrc/teach-pui-example/
+Just a space for testing material for the final project -- please ignore!
